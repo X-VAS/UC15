@@ -1,0 +1,50 @@
+
+body{
+    
+    background:url("../fotos/daniel-olah-6KQETG8J-zI-unsplash.jpg");
+}
+#Nome{
+    color: rgb(108, 130, 202);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.Painel{
+    background: #07afe250;
+    margin: 20px 25%;      /* Determinei a altura p/ 20px por 25% de largura */
+    padding: 20px 150px;    /* Aumentei padding vertical */
+    border-radius: 10px;   /* Corrigido: adicionado 'px' */
+    width: 50%;
+    max-width: 600px;      /* Limita largura em telas grandes */
+}
+
+.informações{
+    color: rgb(117, 245, 234);
+    text-align: center;
+}
+
+#Cabecalio{
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: rgb(117, 245, 234);
+    text-align: center;
+}
+ul{
+    color: rgb(226, 232, 250);
+    text-align: center;
+}
+img{
+    display:block;/* Definir como um bloco*/
+    margin: 40px auto;/* Centralizar horizontal */
+    width: 150px;/* Definir largura */
+    height: 150px; /* Definir altura */
+    object-fit:initial; /* preenchimento da area com recorte*/
+    border-radius: 100px; /* Definir cantos arrendodados */
+    transition: transform 200ms ease, box-shadow 200ms ease, filter 200ms ease;
+    will-change: transform;
+}
